@@ -1,0 +1,24 @@
+:root {
+  --verde-escuro: #417b34;
+  --verde: #709c61;
+  --verde-claro: #9ebd8e;
+  --bege: #cddebb;
+  --quase-branco: #fcffe8;
+}
+
+body {
+  background-color: var(--quase-branco);
+}
+
+.navbar {
+  background-color: var(--verde-escuro) !important;
+}
+
+.btn-primary {
+  background-color: var(--verde);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--verde-escuro);
+}
